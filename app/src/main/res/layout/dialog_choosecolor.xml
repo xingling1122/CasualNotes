@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+    <TableRow android:layout_width="match_parent">
+        <ImageButton android:background="@drawable/bg_color_highblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blue">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_lightblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/lightblue">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_highgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/green">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_lightgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/lightgreen">
+        </ImageButton>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+        <ImageButton android:background="@drawable/bg_color_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellow">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_lightyellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/lightyellow">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_minyellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/minyellow">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_mediumvioletred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/purple">
+        </ImageButton>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+        <ImageButton android:background="@drawable/bg_color_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lightpurple">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_coral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/coral">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_lightgrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/grey">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/lightgrey">
+        </ImageButton>
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+        <ImageButton android:background="@drawable/bg_color_seagreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seagreen">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_khaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/khaki">
+        </ImageButton>
+        <ImageButton android:background="@drawable/bg_color_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:visibility="invisible">
+        </ImageButton>
+        <ImageButton android:background="@drawable/color_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/colorno">
+        </ImageButton>
+    </TableRow>
+</TableLayout>

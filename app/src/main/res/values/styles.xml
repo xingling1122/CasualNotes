@@ -1,0 +1,145 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="add_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->
+        <item name="android:windowBackground">@drawable/bgdialog</item><!-- 自己想要的背景 -->
+        <item name="android:backgroundDimEnabled">true</item><!-- 模糊 -->
+    </style>
+
+    <style name="MyProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopUpSlide_anim</item>
+    </style>
+    <style name="DialogFloating" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogPush_anim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="NumDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogSlide_anim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DialogTransparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/DialogSlide_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="PopUpSlide_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="DialogFade_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="DialogSlide_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    <style name="DialogPush_anim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out</item>
+    </style>
+
+    <style name="ThemeBlue" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/blue</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo</item>
+    </style>
+    <style name="ThemeNight" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/black</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_black</item>
+    </style>
+    <style name="ThemePink" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/pink</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_pink</item>
+    </style>
+    <style name="ThemeBlack" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/black</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_black</item>
+    </style>
+    <style name="ThemeGreen" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/green</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_green</item>
+    </style>
+    <style name="ThemeGrey" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/grey</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_grey</item>
+    </style>
+    <style name="ThemeYellow" parent="@style/AppTheme.PopupOverlay">
+        <item name="colorValue">@color/yellow</item>
+        <item name="floatValue">1.44</item>
+        <item name="integerValue">55</item>
+        <item name="booleanValue">false</item>
+        <item name="dimensionValue">76px</item>
+        <item name="stringValue">@string/action_settings</item>
+        <item name="referenceValue">@drawable/icon_logo_yellow</item>
+    </style>
+</resources>

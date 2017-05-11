@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/threehen"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/inventoryName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="@string/collectbox"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black_color_lighter"/>
+    <TextView
+        android:id="@+id/delTime"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="2:00"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black_color_lighter"/>
+    <ImageView
+        android:id="@+id/drop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/drop"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>

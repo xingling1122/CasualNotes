@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/today"
+            android:icon="@drawable/today"
+            android:title="@string/today" />
+        <item
+            android:id="@+id/collect"
+            android:icon="@drawable/collect"
+            android:title="@string/collectbox" />
+        <item
+            android:id="@+id/calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/calendar" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <item android:title="@string/inventory">
+        <menu>
+            <item
+                android:id="@+id/add"
+                android:icon="@drawable/add"
+                android:title="@string/chooseinventory" />
+            <item
+                android:id="@+id/manager"
+                android:icon="@drawable/manager"
+                android:title="@string/guanliinventory" />
+        </menu>
+    </item>
+
+</menu>

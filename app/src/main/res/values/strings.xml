@@ -1,0 +1,135 @@
+<resources>
+
+    <string name="app_name">CasualNotes</string>
+
+    <string name="action_settings">setting</string>
+    <string name="action_delete">delete</string>
+    <string name="action_cancel">cancel</string>
+    <string name="action_logout">logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //登录页面
+
+    <string name="name_logo">Casual Notes</string>
+
+    <string name="username">username</string>
+
+    <string name="password">password</string>
+
+    <string name="login">login</string>
+
+    <string name="forgetpsw">forget</string>
+
+    <string name="create">create</string>
+
+    <string name="register">register</string>
+
+    <string name="own">I already have one</string>
+
+    <string name="changeversion">Change To Chinese Version</string>
+
+    <string name="today">today</string>
+    <string name="mb_button">Button</string>
+
+    <string name="loginfail">loginfail</string>
+    //对话框
+    <string name="OK">ok</string>
+    <string name="CANCEL">cancel</string>
+    <string name="tryagain">again</string>
+    <string name="YES">yes</string>
+    <string name="NO">no</string>
+    <string name="wait">wait</string>
+
+    <string name="newfoldername">new folder</string>
+    <string name="folder">folder</string>
+    <string name="newaddfolder">add folder</string>
+    <string name="chooseinventory">choose inventory</string>
+    <string name="collectbox">collectbox</string>
+    <string name="calendar">calendar</string>
+    <string name="inventory">inventory</string>
+    <string name="addinventory">add inventory</string>
+    <string name="guanliinventory">edit inventory</string>
+    <string name="deletedirect">delete directly</string>
+    <string name="addtogabbage">gabbage</string>
+    <string name="dismiss">dismiss</string>
+    <string name="readytodo">ready to do what？</string>
+    <string name="none">none</string>
+    <string name="noempty">inventory name cannot be empty</string>
+    <string name="color">color</string>
+    <string name="defaultfolder">default folder</string>
+    <string name="other">other</string>
+    <string name="settocurrentinventory">set to current inventory?</string>
+    <string name="editinventory">edit inventory</string>
+    <string name="title">title</string>
+    <string name="name_user">username</string>
+    <string name="zhuti">theme</string>
+    <string name="preferset">prefer set</string>
+    <string name="clock">clock</string>
+    <string name="security">security and data</string>
+    <string name="greatechoose">advanced options</string>
+    <string name="appliction">application</string>
+    <string name="support">support</string>
+    <string name="help">help</string>
+    <string name="returnback">feedback and suggestion</string>
+    <string name="about">about</string>
+    <string name="introduce">recommend casualnotes</string>
+    <string name="addsuccess">add success</string>
+    <string name="updatesuccess">update success</string>
+    <string name="useinventory">using inventory</string>
+    <string name="dropinventory">droping inventory</string>
+    <string name="loginanother">remote login</string>
+    <string name="hidedelete">hide delete</string>
+    <string name="waitsecond">wait a minute</string>
+    <string name="uploadsuccess">upload success</string>
+    <string name="uploadfail">upload fail</string>
+    <string name="uploading">uploading</string>
+    <string name="getfail">get image fail</string>
+    <string name="zipping">zipping</string>
+    <string name="takephoto">take photo</string>
+    <string name="photo">album</string>
+    <string name="pleasechoose">choose please</string>
+    <string name="registersuccess">register success</string>
+    <string name="registerfail">register fail</string>
+    <string name="logoutsuccess">logout success</string>
+    <string name="logoutfail">logout fail</string>
+    <string name="theme">theme</string>
+    <string name="set">settings</string>
+    <string name="puretheme">pure theme</string>
+    <string name="blue">blue</string>
+    <string name="night">night</string>
+    <string name="pink">pink</string>
+    <string name="black">black</string>
+    <string name="green">green</string>
+    <string name="grey">grey</string>
+    <string name="yellow">yellow</string>
+    <string name="account">account</string>
+    <string name="nickname">nickname</string>
+    <string name="imail">mail</string>
+    <string name="phone">phone</string>
+    <string name="changepassword">change password</string>
+    <string name="updateaccount">update account</string>
+    <string name="save">save</string>
+    <string name="change">change</string>
+    <string name="savesuccess">save success</string>
+    <string name="savefail">save fail</string>
+    <string name="loginorregister">login or register</string>
+    <string name="loginfirst">login first</string>
+    <string name="alreadyloyout">loyout already</string>
+    <string name="oldfirst">please input oldpassword</string>
+    <string name="newpassword">please input newpassword</string>
+    <string name="inputimail">please input mail</string>
+    <string name="inputphone">please input phone</string>
+    <string name="inputcheckcode">please input valicode</string>
+    <string name="returnlogin">return to login</string>
+    <string name="createfree">create free account</string>
+    <string name="reset">reset</string>
+    <string name="getcheckcode">get valicode</string>
+    <string name="resetfail">reset fail</string>
+    <string name="resetsuccess">reset success</string>
+    <string name="inputps">input newpassword</string>
+    <string name="inputpsagain">input newpassword again</string>
+    <string name="generatecodesuccess">generate valicode success</string>
+
+</resources>
